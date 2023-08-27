@@ -3,19 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <img
-      src="https://cdn.scrambledchefs.com/wp-content/uploads/2020/10/Chicken-Thighs-FB.jpg"
-      alt="different recipes"
-      width="500px"
-    />
-    <ul>
-      <li><a href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a href="recipes/banana-brownies.html">Banana brownies</a></li>
-      <li><a href="recipes/oatmeal.html">Oatmeal bowl</a></li>
-    </ul>
+    <header>
+      <h1>My Favourite Recipes</h1>
+      <img
+        src="https://cdn.scrambledchefs.com/wp-content/uploads/2020/10/Chicken-Thighs-FB.jpg"
+        alt="different recipes"
+        width="500px"
+      />
+    </header>
+    <section id="breakfast">
+      <h2>Breakfast</h2>
+      <ul>
+        <li><a class="recipe" href="recipes/oatmeal.html">Oatmeal bowl</a></li>
+      </ul>
+    </section>
+    <section id="lunch">
+      <h2>Lunch</h2>
+      <ul>
+        <li><a class="recipe" href="recipes/lasagna.html">Lasagna</a></li>
+      </ul>
+    </section>
+    <section id="healthy-snack">
+      <h2>Healthy snack</h2>
+      <ul>
+        <li>
+          <a class="recipe" href="recipes/banana-brownies.html"
+            >Banana brownies</a
+          >
+        </li>
+      </ul>
+    </section>
   </body>
 </html>

@@ -1,0 +1,57 @@
+body {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 40px;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 20px;
+  padding-left: 20px;
+}
+a:hover {
+  color: purple;
+}
+
+#breakfast {
+  background-color: rgb(121, 82, 56);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#lunch {
+  background-color: rgb(121, 82, 56);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#healthy-snack {
+  background-color: rgb(121, 82, 56);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
